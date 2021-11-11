@@ -25,3 +25,8 @@ class Calculator:
     def multiply_numbers(tuple_values: tuple):
         """ multiplication number from result and returns a multiplication result object"""
         return Calculations.add_multiplication_calculation(tuple_values)
+
+    @staticmethod
+    def divide_numbers(tuple_values: tuple):
+        """ multiplication number from result and returns a multiplication result object"""
+        return Calculations.add_division_calculation(tuple_values)
